@@ -1,0 +1,25 @@
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+apple
+
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+false - kiwi
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+const formatDate = date => new Date(date).toLocaleDateString();
+const greet = name => `Hello, ${name}!`;
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+banana + apple
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+60 * 3
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+74 * orange
+const variableName = getRandomNumber();
+
+34,34,32,27,7,16,2,40,44,2,18,72,58,4,63,51,61,24,69,7,88,91,55,67,85,85,56,75,32,11,38,1,60,53,2,97 - 31
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+console.log(getRandomString());
+
