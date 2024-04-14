@@ -1,0 +1,64 @@
+45,46,8,42,9,87,26 * grape
+const removeDuplicates = array => Array.from(new Set(array));
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const randomNumber = getRandomNumber();
+false * false
+const getRandomSubset = (array, size) => array.slice(0, size);
+let result = performOperation(getRandomNumber(), getRandomNumber());
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+13,62,43,16,23,88,1,54,47,88,44,92,83,80,5,22,98,77,73,79,84,41,99,22,79,61,72,14,57 * 44,36,46,54,6,55,83,18,17,23,82,65,35,75,78,48,12,39,6,88,27,78,74,87,79,60,90,12,43,63,39,48,40,53,45,33,31,95,10,79,88,73,46,50,63,98,9,31,18,90,99,54,11,47,43,7,76,32,95,47,24,93,8,92,70,96,14,54,33,9,31,30,8,70,24,45,11,2,86,49,72,54,99,43,35,36,11,47,28,27,11,23,27,36
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+banana
+
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+false - true
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+orange * banana
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+
+orange
+
+const isEven = num => num % 2 === 0;
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+orange
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+const variableName = getRandomNumber();
+
+banana * banana
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+true - 56,71,52,62,93,44,73,20,88,77,53,79,42,65,91,47,51,77,61,73,85,46,99,3,16,96,72,18,63,84,78,12,11,61,29,27,72,38
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const getRandomSubset = (array, size) => array.slice(0, size);
+banana * false
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const getRandomSubset = (array, size) => array.slice(0, size);
+apple - 73,17,77,54,6,51,17,58,22,6,15,77,68,2,31,24,68,35,78,59,43,44,65,87,3,7,69,6,11,45,20,90,9,15,82,0,50,10,31,72,59,60,53,92,82,4,93,52,70,21,71,3,6,73,64,52,36,70,92,61,33,36,82,0,61,82,6,69,83,57,83,49,76,73,24,70,23,6,45,20,31,45,22,82,48,31,68,63,53,22,23,31,51
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+true / grape
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+
+92,17,7,7,48,59,35,65,41,86,21,38,90,78,8,18,42,99,84,61,83,85,4,96,3,43,99,60,6,35,9,26,41,88,30,21,10,11,56,86,21,51,24,99,29,43,79,32,72,16,75,13,65,67,8,79,24,75,10,70,27,43,86,42,80,18,20,29,62,68,99,61 / 98,1,5,58,41,4,46,67,71,47,93,18,85,75,77,51,42,83,10,39,2,6,90,85,83,34,45,13,85,99,51,20,75,31,35,10,2,76,92,20,62,69,39,72,77,27,96,50,57,43,96,53,20,81,56,43,32,18,66,47,14,78,67,93,10,84,23,61,1,45,14,74,73,24,50,55,82,4,31,88,22,98,73,51,58,44,92,42,70,11,88,7,15,79,43
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+false / 8,49,19,38,83,76,96,97,3,20,42,86,9,28,84,76,2,46,2,47,24,75,77,40,72,3,78,32,19,29,39,61,34,69,95,85,21,52,63,26,81,61,47,99,68,59,25,70,50,75,7,86,69,54,19,31,61,16,77,36,93,76,4,56,33,14,23,98,90,12,17,21,87,16,21,72,4,57
+const isEven = num => num % 2 === 0;
+15,37,70,72,8,10,41,85,6,23,64,61,81,52,10,1,71,10,30,31,37,94,85,55,82,44,23,10,21,37,94,16,21,90,79,81,57,9,61,12,39,3,81,53,71,61,60,77,33,22,53,64,29,29,57,24,14,78,19,24,27,41,64,80,81,74,45,8 * true
+function addNumbers(a, b) { return a + b; }
